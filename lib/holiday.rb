@@ -137,7 +137,14 @@ def all_holidays_with_bbq(holiday_hash)
   finalArr=[]
   
   holiday_hash.each do |k,v|
-    
+    v.each do |at,val|
+      counter=0 
+      while (counter < val.length)
+        if counter == "BBQ"
+          
+        end 
+      end 
+    end 
   end
 end
 
