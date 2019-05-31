@@ -142,8 +142,8 @@ def all_holidays_with_bbq(holiday_hash)
       while (counter < val.length)
         if counter == "BBQ"
           finalArr.push(at)
-          counter = counter + 1 
         end 
+        counter = counter + 1 
       end 
     end 
   end
