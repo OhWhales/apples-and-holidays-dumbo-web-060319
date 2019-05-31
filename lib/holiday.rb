@@ -140,7 +140,7 @@ def all_holidays_with_bbq(holiday_hash)
     v.each do |at,val|
       counter=0 
       while (counter < val.length)
-        if counter == "BBQ"
+        if val[counter] == "BBQ"
           finalArr.push(at)
         end 
         counter = counter + 1 
