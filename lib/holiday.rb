@@ -113,7 +113,7 @@ def all_supplies_in_holidays(holiday_hash)
         x.capitalize 
         newAr.push(x)
       end 
-      tempWord = z.join(" ")
+      tempWord = newAr.join(" ")
       wholeSentence = wholeSentence + "  #{tempWord}:"
       counter = 0 
       while (counter < value.length)
