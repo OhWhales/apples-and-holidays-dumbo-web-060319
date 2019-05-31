@@ -108,8 +108,10 @@ def all_supplies_in_holidays(holiday_hash)
       wholeSentence=""
       z=attribute.to_s 
       z=z.split('_')
+      newAr=[]
       for x in z 
         x.capitalize 
+        newAr.push(x)
       end 
       tempWord = z.join(" ")
       wholeSentence = wholeSentence + "  #{tempWord}:"
